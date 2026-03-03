@@ -1,6 +1,7 @@
 Ejercicio 2 - Explorador del Sistema Solar
+Nava Villar Eric
 Pérez Olivares José Julio
-27/02/2026
+02/03/2026
 
 En esta app se muestra el uso de navegacion utilizando multiples activities, donde avanzamos explorando diferentes pestañas (niveles)
 
@@ -8,8 +9,8 @@ El proyecto consta de 4 niveles de profundidad
 
 MainActivity (Nivel 1 - Galaxia): punto de entrada y funciona como pantalla inicial
 SistemaSolarActivity (Nivel 2 - Sistema Solar): segunda pantalla representa sistema solar
-PlanetasActivity (Nivel 3 - Planetas): tercer nivel enfocado en los planetas "aunque no muestre ninguno"
-LunasActivity (Nivel 4 - Lunas): finalmente lunas el nivel mas profundo con el boton quw avisa de "ultimo nivel"
+PlanetasActivity (Nivel 3 - Planetas): tercer nivel enfocado en los planetas
+LunasActivity (Nivel 4 - Lunas): finalmente lunas el nivel mas profundo con el boton que avisa de "ultimo nivel"
 
 Transiciones
 se manejo utilizando Intents explicitos al presionar los botones correspondientes, se instancia un objeto Intent
