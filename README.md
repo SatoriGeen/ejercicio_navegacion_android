@@ -33,11 +33,18 @@ Instrucciones de Ejecución
 
 Evidencias de Ejecución
 (Nivel 1 - Galaxia)
+
 ![Galaxia](https://github.com/user-attachments/assets/211fb874-3848-4827-b83a-26f54ee46de8)
+
 (Nivel 2 - Sistema Solar)
+
 ![Solar](https://github.com/user-attachments/assets/d878cef7-61c7-4023-8fef-50890049ab1a)
+
 (Nivel 3 - Planetas)
+
 ![Planetas](https://github.com/user-attachments/assets/85bda009-67a7-4e03-8763-e3736144e76b)
+
 (Nivel 4 - Lunas)
+
 ![Luna](https://github.com/user-attachments/assets/604a76be-811c-488c-9e58-9d417f671485)
 
