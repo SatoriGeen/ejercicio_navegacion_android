@@ -1,6 +1,7 @@
 Ejercicio 2 - Explorador del Sistema Solar
 Nava Villar Eric
 Pérez Olivares José Julio
+Perez Hernandez Tony Saifi 
 02/03/2026
 
 En esta app se muestra el uso de navegacion utilizando multiples activities, donde avanzamos explorando diferentes pestañas (niveles)
@@ -10,7 +11,7 @@ El proyecto consta de 4 niveles de profundidad
 MainActivity (Nivel 1 - Galaxia): punto de entrada y funciona como pantalla inicial
 SistemaSolarActivity (Nivel 2 - Sistema Solar): segunda pantalla representa sistema solar
 PlanetasActivity (Nivel 3 - Planetas): tercer nivel enfocado en los planetas
-LunasActivity (Nivel 4 - Lunas): finalmente lunas el nivel mas profundo con el boton que avisa de "ultimo nivel"
+LunasActivity (Nivel 4 - Lunas): finalmente lunas el nivel mas profundo.
 
 Transiciones
 se manejo utilizando Intents explicitos al presionar los botones correspondientes, se instancia un objeto Intent
@@ -32,10 +33,11 @@ Instrucciones de Ejecución
 
 Evidencias de Ejecución
 (Nivel 1 - Galaxia)
-<img width="485" height="620" alt="nivel1" src="https://github.com/user-attachments/assets/850520e1-d583-436f-93b1-67c4edea1e2c" />
+![Galaxia](https://github.com/user-attachments/assets/211fb874-3848-4827-b83a-26f54ee46de8)
 (Nivel 2 - Sistema Solar)
-<img width="478" height="617" alt="nivel2" src="https://github.com/user-attachments/assets/66d6c09a-d863-46d5-a53d-c7ffeef43ad6" />
+![Solar](https://github.com/user-attachments/assets/d878cef7-61c7-4023-8fef-50890049ab1a)
 (Nivel 3 - Planetas)
-<img width="475" height="617" alt="nivel3" src="https://github.com/user-attachments/assets/8eb5b29a-a3cf-4d3a-8814-37f862e1fcaf" />
+![Planetas](https://github.com/user-attachments/assets/85bda009-67a7-4e03-8763-e3736144e76b)
 (Nivel 4 - Lunas)
-<img width="481" height="619" alt="nivel4" src="https://github.com/user-attachments/assets/3a262da1-2891-4af3-bd85-3f0a126189cb" />
+![Luna](https://github.com/user-attachments/assets/604a76be-811c-488c-9e58-9d417f671485)
+
