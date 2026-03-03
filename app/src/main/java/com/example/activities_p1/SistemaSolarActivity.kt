@@ -20,6 +20,14 @@ class SistemaSolarActivity : AppCompatActivity() {
             val intent = Intent(this, PlanetasActivity::class.java)
             startActivity(intent)
         }
+
+        val btnAnterior = findViewById<Button>(R.id.buttonAnterior)
+
+        // 2. Le asignamos la acción de regresar
+        btnAnterior.setOnClickListener {
+            Log.d("CicloDeVida", "Planetas: Regresando a la Vía Láctea...")
+            finish() // Cierra esta Activity y libera los recursos
+        }
     }
 
     override fun onStart() {

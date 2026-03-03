@@ -14,9 +14,9 @@
     android:layout_marginBottom="30dp"/>
 
     <Button
-        android:id="@+id/btnSiguiente"
+        android:id="@+id/btnAnterior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ultimo nivel" />
+        android:text="Regresar" />
 
 </LinearLayout>

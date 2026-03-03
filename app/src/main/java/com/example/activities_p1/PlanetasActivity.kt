@@ -1,6 +1,5 @@
 package com.example.activities_p1
 
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -11,19 +10,27 @@ class PlanetasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_planetas)
 
-        // Aquí demostramos el ciclo de vida
-        Log.d("CicloDeVida", "Galaxia: onCreate ejecutado")
 
         val btnSiguiente = findViewById<Button>(R.id.btnSiguiente)
         btnSiguiente.setOnClickListener {
-            // El Intent crea la transición a la siguiente Activity
-            val intent = Intent(this, LunasActivity::class.java)
+            val intent = android.content.Intent(this, LunasActivity::class.java)
             startActivity(intent)
+        }
+
+        val btnAnterior = findViewById<Button>(R.id.buttonAnterior)
+        btnAnterior.setOnClickListener {
+            Log.d("CicloDeVida", "Planetas: Regresando a Sistema Solar")
+            finish()
         }
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d("CicloDeVida", "Galaxia: onStart ejecutado")
+        Log.d("CicloDeVida", "Planetas: onStart ejecutado")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("CicloDeVida", "Planetas: onDestroy - Activity eliminada")
     }
 }
